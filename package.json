@@ -7,9 +7,7 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "pkg index.js --output bin/wallpaper"
+    "start": "node index.js"
   },
   "keywords": [
     "wallpaper",
@@ -18,15 +16,12 @@
   "author": "Per Fröjd",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^6.1.0",
-    "got": "^9.3.2",
-    "lodash.random": "^3.2.0",
-    "pkg": "^4.3.4",
-    "qs": "^6.5.2",
-    "rimraf": "^2.6.2",
-    "temp-dir": "^1.0.0",
-    "uuid": "^3.3.2",
-    "wallpaper": "^4.1.0"
+    "dotenv": "^6.2.0",
+    "got": "^9.6.0",
+    "nanoid": "^2.0.1",
+    "qs": "^6.6.0",
+    "rimraf": "^2.6.3",
+    "wallpaper": "^4.2.0"
   },
   "devDependencies": {
     "eslint": "^4.11.0",
