@@ -1,0 +1,15 @@
+{
+  "plugins": ["node", "security"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:node/recommended",
+    "plugin:security/recommended"
+  ],
+  "rules": {
+    "max-len": ["error", 100]
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  }
+}
